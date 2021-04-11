@@ -1,0 +1,45 @@
+.header {
+  width: 100vw;
+  height: 80vh;
+  background-image: $main_color;
+  padding-top: 40px;
+}
+
+.navbar {
+  width: 80vw;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.navbar__logo {
+  a {
+    font-family: $main_font;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}
+
+.navbar__nav {
+  padding: 10px 0;
+}
+
+.navbar__list {
+  display: flex;
+}
+
+.navbar__item {
+  margin-left: 20px;
+
+  a {
+    font-family: $main_font;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}
